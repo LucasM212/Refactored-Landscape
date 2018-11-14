@@ -4,8 +4,8 @@ def setup():
 def draw():
   background(139, 90, 0)
   draw_sun(320, -100)
-  draw_cloud1(-100, height)
-  draw_cloud2(640, 240)
+  cloud1(-100, height)
+  cloud2(640, 240)
 
 def draw_sun(x, height2):
   if height2 >= 640:
